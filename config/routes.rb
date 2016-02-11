@@ -5,5 +5,6 @@ Rails.application.routes.draw do
    resources :artists
    # For the following routes:
    # get 'artists' => "artists#index", as: :artists
+   # get 'artists/:id' => "artists#show", as: :artist
 
 end
