@@ -1,6 +1,6 @@
 <h1><%= @song.title %></h1>
 
-<p>By <%= @song.artist.name %></p>
+<p>By <%= link_to @song.artist.name, artist_path( @song.artist ) %></p>
 
 <p>Released <%= @song.year %></p>
 
