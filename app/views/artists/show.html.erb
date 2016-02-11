@@ -2,4 +2,12 @@
 
 <p>From <%= @artist.country %></p>
 
+<h2>Songs</h2>
+
+<% @artist.songs.each do |song| %>
+  <p><%= link_to song.title, song_path( song ) %></p>
+<% end %>
+
+<hr>
+
 <%= link_to "All Artists", artists_path %>
