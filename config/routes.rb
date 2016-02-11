@@ -10,5 +10,6 @@ Rails.application.routes.draw do
    resources :songs
    # For the following routes:
    # get 'songs' => "songs#index", as: :songs
+   # get 'songs/:id' => "songs#show", as: :song
 
 end
