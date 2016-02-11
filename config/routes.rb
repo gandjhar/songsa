@@ -7,4 +7,8 @@ Rails.application.routes.draw do
    # get 'artists' => "artists#index", as: :artists
    # get 'artists/:id' => "artists#show", as: :artist
 
+   resources :songs
+   # For the following routes:
+   # get 'songs' => "songs#index", as: :songs
+
 end
